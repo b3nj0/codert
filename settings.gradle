@@ -1,0 +1,5 @@
+rootProject.name = 'codert'
+
+include 'server'
+include 'vcs'
+

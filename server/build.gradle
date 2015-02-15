@@ -1,0 +1,10 @@
+repositories {
+    maven { url 'http://repository.jetbrains.com/all' }
+}
+
+dependencies {
+    compile project(':vcs')
+
+    compile 'com.sparkjava:spark-core:2.1'
+    compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.4.4-1'
+}
